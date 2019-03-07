@@ -1,0 +1,28 @@
+/* =====      针对组件库input框权重高的css      ===== */
+  .el-range-editor.el-input__inner {
+    border: 0.014rem solid #fff; 
+    border-radius: 0.1rem;
+    background: rgba(0, 0, 0, 0);
+    height: 0.7rem;
+    width: 5rem;
+    margin-left: 1rem;
+  }
+  .el-range-editor.el-input__inner:-moz-placeholder {
+    color: #9B9B9B;
+    
+    opacity: 1;
+  }       
+  ::-moz-placeholder {
+    color:#9B9B9B;
+    opacity: 1;
+  }
+  input:-ms-input-placeholder {
+    color:#9B9B9B;
+    opacity: 1;
+  }
+  input::-webkit-input-placeholder {
+    color:#9B9B9B;
+    opacity: 1;}
+    .el-range-editor .el-range-input {
+        color: #fff;
+      }

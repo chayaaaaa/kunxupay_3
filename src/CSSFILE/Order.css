@@ -1,0 +1,249 @@
+  /* ==============       header        ============= */
+  .mint-header {
+    height: 1.2rem;
+    font-size: 0.4rem;
+    font-weight: 100;
+    background: #1c8cff;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .mint-header-title {
+    line-height: 1rem;
+  }
+  .mint-botton-text {
+    font-size: 0.3rem !important;
+  }
+  .mintui {
+    font-size: 0.4rem;
+  }
+  /* 选择栏 */
+  .Choice {
+    width: 100%;
+    height: 4rem;
+    background: url("~@/assets/image/Manger/Trade/bj1080.png") no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 1.2rem;
+    padding-top: 0.5rem;
+  }
+  .Cli {
+    float: left;
+    background: #1c8cff;
+    background: url("~@/assets/image/Manger/Trade/select.png") no-repeat right;
+    background-size: 0.35rem;
+    width: 1.8rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    font-size: 0.35rem;
+    margin-right: 0.rem;
+    padding-left: 0.5rem;
+    color: #fff;
+  }
+  
+ /*  .el-range-editor.el-input__inner {
+    border: 0.014rem solid #fff; 
+    border-radius: 0.1rem;
+    background: rgba(0, 0, 0, 0);
+    height: 0.7rem;
+    width: 5rem;
+    margin-left: 1rem;
+  } */
+/*   .el-range-editor.el-input__inner:-moz-placeholder {
+    color: rgb(233, 227, 227);
+    opacity: 1;
+  }       
+  ::-moz-placeholder {
+    color: rgb(233, 227, 227);
+    opacity: 1;
+  }
+  input:-ms-input-placeholder {
+    color: rgb(233, 227, 227);
+    opacity: 1;
+  }
+  input::-webkit-input-placeholder {
+    color: rgb(233, 227, 227);
+    opacity: 1;} */
+
+  /* 交易汇总 */
+  .showDetail {
+    width: 90%;
+    height: 1.95rem;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.8);
+    margin-left: 5%;
+    margin-top: 0.2rem;
+    border-radius: 0.1rem;
+    text-align: center;
+    line-height: 0.5rem;
+    padding-top: 0.35rem;
+    color: #606060;
+  }
+  .showDetail .right {
+    width: 40%;
+    height: 1.3rem;
+    float: left;
+    padding-top: 0.3rem;
+  }
+  .showDetail .right p:nth-child(2) {
+    color: #222;
+    font-weight: 900;
+    margin-top: 0.1rem;
+    font-size: 0.35rem;
+  }
+  .showDetail img {
+    vertical-align: middle;
+    width: 0.5rem;
+    margin-right: 0.2rem;
+  }
+  .showDetail  .left {
+    width: 40%;
+    height: 1.3rem;
+    float: left;
+    margin-left: 10%;
+    border-right: 1px solid #9b9b9b; /* no */
+    padding-top: 0.3rem;
+   
+  }
+  .showDetail .left p:nth-child(2) {
+    font-weight: 900;
+    font-size: 0.35rem;
+    margin-top: 0.1rem;
+    color: #222;
+  }
+  .showDetail .left img {
+    width: 0.6rem;
+  }
+
+
+.el-icon-date:before {
+  content: "";
+}
+.el-input__icon:after {
+  content: "";
+}
+.el-date-range-picker__header div {
+  margin: 0 !important;
+}
+/* .el-range-editor .el-range-input {
+  color: #fff;
+} */
+
+.van-checkbox__icon--checked .van-icon {
+  color: #1c8cff;
+  font-size: 0.25rem;
+  width: 0.35rem;
+  height: 0.35rem !important;
+}
+.van-checkbox__icon--round .van-icon {
+  width: 0.35rem;
+  height: 0.35rem;
+  margin-top: 0.1rem;
+}
+.van-icon, .van-icon::before{
+  display: initial;
+}
+.van-icon-success::before{
+  margin-top: 0.045rem;
+}
+.van-checkbox__label{
+  font-size:0.3rem;
+}
+.van-checkbox__icon .van-icon{
+  font-size: 14px;
+    color: transparent;
+    text-align: center;
+    line-height: inherit;
+    width: 15px;
+    height: 15px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #e5e5e5;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+/* 弹出框 */
+.van-picker-column {
+  border-radius: 0.2rem;
+}
+.van-picker {
+  border-radius: 0.2rem;
+}
+.mint-popup {
+  width: 90%;
+  border-radius: 0.2rem;
+}
+.style {
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 20rem;
+}
+.consume {
+  float: right;
+  margin-right: 0.5rem;
+  color: #fff;
+  height: 0.6rem;
+  line-height: 0.6rem;
+}
+/* 选择框 */
+.mint-popup .box {
+  width: 30%;
+  height: 1rem;
+  text-align: center;
+  line-height: 1rem;
+  float: left;
+  margin-bottom: 0.5rem;
+  font-size: 0.4rem;
+}
+.mint-popup .title{
+  width: 100%;
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 0.4rem;
+  color: #1C8CFF;
+}
+.mint-popup   .cancel {
+  background: #fff;
+  border: 0.5px solid #1c8cff; /* no */
+  margin-left: 15%;
+  color: #1c8cff;
+}
+.mint-popup  .Confirm {
+  height: 1.025rem;
+  float: right;
+  background: #1c8cff;
+  margin-right: 15%;
+  color: #fff;
+}
+
+/* 列表头部 */
+.listTop {
+  width: 91%;
+  height: 1.1rem;
+  position: absolute;
+  top: 5.1rem;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  line-height: 1.1rem;
+  background: #fff;
+  color: #1c8cff;
+  font-size: 0.4rem;
+  padding-left: 4.5%;
+  padding-right: 4.5%;
+}
+.listTop li {
+  width: 25%;
+  border-bottom: 0.5px solid #1c8cff; /* no */
+}
+.listTop li .li {
+  width: 50%;
+}
+/* 列表 */
+.listTal {
+  /*   margin-top:6.3rem; */
+  background: #fff;
+  position: absolute;
+  width: 100%;
+  top: 6.2rem;
+}
